@@ -28,7 +28,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
-    background-color: lightpink;
+    background-color: paleturquoise;
 }
 
 section {
@@ -120,7 +120,7 @@ footer {
   .coolculator {
       font-family: 'Faster One', Arial, Helvetica, sans-serif;
       font-size: 4rem;
-      color: white;
+      color: deepskyblue;
   }
 
   .welcome {
@@ -137,12 +137,15 @@ footer {
     background-color: paleturquoise;
     border-radius: 30px;
     border: solid lightcoral 5px;
+    margin-bottom: 0px;
+    margin-top: 50px;
     }
 
 .calc-box {
     display: flex;
     flex-direction: row;
     padding-bottom: 0px;
+    padding-top: 0;
 
 }
 
@@ -200,6 +203,7 @@ footer {
 
 .result-container {
     padding-top: 0px;
+    margin-top: 0;
 }
 
 #affirmation {
