@@ -28,6 +28,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-color: lightpink;
 }
 
 section {
@@ -78,8 +79,6 @@ header img {
     height: var(--header-height);
 }
 
-
-
 content {
     width: 80%;
 }
@@ -116,4 +115,100 @@ footer {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
 
+  }
+
+  .coolculator {
+      font-family: 'Faster One', Arial, Helvetica, sans-serif;
+      font-size: 4rem;
+      color: white;
+  }
+
+  .welcome {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    letter-spacing: 3px;
+
+  }
+
+  .welcome-section {
+    background-color: paleturquoise;
+    border-radius: 30px;
+    border: solid lightcoral 5px;
+    }
+
+.calc-box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+
+}
+
+.calc-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    font-size: 3rem;
+    color: white;
+    border-radius: 37.5px;
+    background-color: lightsalmon;
+    border: solid white 5px;
+}
+
+.calc-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    border: solid white 5px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: center;
+    width: text;
+    height: 75px;
+    margin: 10px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5px;
+    background-color: lightcoral;
+    border: solid white 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#result-div {
+    font-weight: bolder;
+}
+
+.result-container {
+    padding-top: 0px;
+}
+
+#affirmation {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 3px;
+}
+
+::placeholder {
+    color: white;
   }
